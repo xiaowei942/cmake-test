@@ -10,5 +10,5 @@ project(${project_name})
 
 add_subdirectory(src)
 
-option(use_shared_library "If use shared library !" OFF)
+set (BUILD_SHARED_LIBS on)
 add_subdirectory(libhello)
