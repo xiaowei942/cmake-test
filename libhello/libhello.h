@@ -12,5 +12,6 @@
 #endif
 
 LIBHELLO_API void printHello();
+LIBHELLO_API int sum(int a, int b);
 
 #endif
